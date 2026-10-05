@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+.venv/
+runs/
+*.pt
+*.gguf
+data/train.jsonl
+data/test.jsonl
+.claude/
