@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--skip-1.5b", action="store_true")
+    ap.add_argument("--skip-1.5b", dest="skip_1_5b", action="store_true")
     args = ap.parse_args()
 
     models = ["Qwen/Qwen2.5-0.5B-Instruct"] + ([] if args.skip_1_5b else ["Qwen/Qwen2.5-1.5B-Instruct"])
