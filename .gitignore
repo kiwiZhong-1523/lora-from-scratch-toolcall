@@ -2,8 +2,13 @@ __pycache__/
 .pytest_cache/
 .venv/
 runs/
+runs_smoke/
+results_smoke/
+models/
 *.pt
 *.gguf
-data/train.jsonl
-data/test.jsonl
+*.log
+data/raw/
+data/*.jsonl
+!data/sample.jsonl
 .claude/

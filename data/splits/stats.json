@@ -1,0 +1,11 @@
+{
+  "raw": 60000,
+  "single_call": 28461,
+  "kept_le_1536_tokens": 28412,
+  "dropped_too_long": 49,
+  "seed": 0,
+  "n_test": 2000,
+  "n_val": 500,
+  "n_train": 20000,
+  "n_rest": 5912
+}
