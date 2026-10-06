@@ -37,9 +37,11 @@ done
 run e1_attn_r8_s43 scripts/train.py --targets attn --r 8 --seed 43
 run e1_attn_r8_s44 scripts/train.py --targets attn --r 8 --seed 44
 
-# --- Experiment 2: where to put LoRA (attn_r8 / attn_r32 reused from exp 1)
-run e2_mlp_r8_s42 scripts/train.py --targets mlp --r 8 --seed 42
-run e2_all_r8_s42 scripts/train.py --targets all --r 8 --seed 42
+# --- Experiment 2: where to put LoRA (attn_r8 / attn_r32 reused from exp 1).
+# micro-batch 4: the fp32 copies of the 4864-dim down_proj inputs OOM at 8 on 24G;
+# the effective batch (32) and the loss normalisation are unchanged.
+run e2_mlp_r8_s42 scripts/train.py --targets mlp --r 8 --micro-batch-size 4 --seed 42
+run e2_all_r8_s42 scripts/train.py --targets all --r 8 --micro-batch-size 4 --seed 42
 
 # --- Experiment 3: full fine-tuning reference
 run e3_full_s42 scripts/train.py --mode full --lr 1e-5 --weight-decay 0.01 \
