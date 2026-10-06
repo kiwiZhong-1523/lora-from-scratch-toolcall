@@ -1,0 +1,14 @@
+{
+  "run": "e2_mlp_r8_s42",
+  "model": "models/Qwen2.5-0.5B-Instruct",
+  "metrics": {
+    "strict_format": 0.995,
+    "json_valid": 0.9955,
+    "schema_valid": 0.995,
+    "name_correct": 0.9915,
+    "args_exact": 0.795,
+    "full_exact": 0.7935,
+    "n": 2000
+  },
+  "eval_seconds": 184.1
+}

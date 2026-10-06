@@ -1,0 +1,18 @@
+{
+  "args": {
+    "run": "e0_1.5b",
+    "out_root": "runs",
+    "model": "models/Qwen2.5-1.5B-Instruct",
+    "data": "data/test.jsonl",
+    "lora": null,
+    "limit": null,
+    "batch_size": 32,
+    "max_new_tokens": 256,
+    "dtype": "auto"
+  },
+  "mode": "eval_only",
+  "dtype": "torch.bfloat16",
+  "env": {
+    "gpu": "NVIDIA A10"
+  }
+}

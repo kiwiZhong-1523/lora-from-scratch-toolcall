@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Full Exact Accuracy by Learning Rate</title>
+  <desc id="desc">Line chart of full exact test accuracy for learning rates 0.00005, 0.0001, 0.0002, 0.0005, and 0.001. Accuracy peaks at 79.20 percent at 0.001. The 0.0002 point is the reference run. Each run evaluates 2,000 examples. The x-axis is logarithmic.</desc>
+  <rect width="960" height="560" fill="#ffffff"/>
+  <text x="480" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#172033">Full Exact Accuracy by Learning Rate</text>
+  <text x="480" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#536176">Attention LoRA · r = 8 · seed 42 · test set N = 2,000</text>
+
+  <g stroke="#e5eaf1" stroke-width="1">
+    <line x1="105" y1="420" x2="875" y2="420"/>
+    <line x1="105" y1="352" x2="875" y2="352"/>
+    <line x1="105" y1="284" x2="875" y2="284"/>
+    <line x1="105" y1="216" x2="875" y2="216"/>
+    <line x1="105" y1="148" x2="875" y2="148"/>
+    <line x1="105" y1="114" x2="875" y2="114"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#536176" text-anchor="end">
+    <text x="93" y="424">72%</text>
+    <text x="93" y="356">74%</text>
+    <text x="93" y="288">76%</text>
+    <text x="93" y="220">78%</text>
+    <text x="93" y="152">80%</text>
+    <text x="93" y="118">81%</text>
+  </g>
+  <g stroke="#536176" stroke-width="1.5">
+    <line x1="105" y1="100" x2="105" y2="420"/>
+    <line x1="105" y1="420" x2="875" y2="420"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#536176" text-anchor="middle">
+    <line x1="120" y1="420" x2="120" y2="426" stroke="#536176"/>
+    <line x1="309" y1="420" x2="309" y2="426" stroke="#536176"/>
+    <line x1="498" y1="420" x2="498" y2="426" stroke="#536176"/>
+    <line x1="687" y1="420" x2="687" y2="426" stroke="#536176"/>
+    <line x1="830" y1="420" x2="830" y2="426" stroke="#536176"/>
+    <text x="120" y="447">5e-5</text>
+    <text x="309" y="447">1e-4</text>
+    <text x="498" y="447">2e-4</text>
+    <text x="687" y="447">5e-4</text>
+    <text x="830" y="447">1e-3</text>
+  </g>
+  <text x="490" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#172033">Learning rate (log scale)</text>
+  <text x="28" y="260" transform="rotate(-90 28 260)" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#172033">Full exact accuracy (%)</text>
+
+  <polyline points="120,377.5 309,304.4 498,263.6 687,182 830,175.2" fill="none" stroke="#2878c8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#ffffff" stroke="#2878c8" stroke-width="3">
+    <circle cx="120" cy="377.5" r="6"/>
+    <circle cx="309" cy="304.4" r="6"/>
+    <circle cx="687" cy="182" r="6"/>
+    <circle cx="830" cy="175.2" r="6"/>
+  </g>
+  <circle cx="498" cy="263.6" r="7" fill="#ffffff" stroke="#d97706" stroke-width="3.5"/>
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#175b9b" text-anchor="middle">
+    <text x="120" y="362.5">73.25</text>
+    <text x="309" y="289.4">75.40</text>
+    <text x="687" y="167">79.00</text>
+    <text x="830" y="160.2">79.20</text>
+  </g>
+  <text x="498" y="247.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#a65a00">76.60</text>
+  <circle cx="364" cy="525" r="6" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
+  <text x="378" y="529" font-family="Arial, sans-serif" font-size="12" fill="#536176">Reference run (2e-4)</text>
+  <text x="640" y="529" font-family="Arial, sans-serif" font-size="12" fill="#6b7789">Log-scaled x-axis; all five tested rates shown.</text>
+</svg>

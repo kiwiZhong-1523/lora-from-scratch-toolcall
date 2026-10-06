@@ -1,0 +1,14 @@
+{
+  "run": "e3_full_s42",
+  "model": "models/Qwen2.5-0.5B-Instruct",
+  "metrics": {
+    "strict_format": 0.9955,
+    "json_valid": 0.9955,
+    "schema_valid": 0.9955,
+    "name_correct": 0.9915,
+    "args_exact": 0.8105,
+    "full_exact": 0.8095,
+    "n": 2000
+  },
+  "eval_seconds": 170.2
+}

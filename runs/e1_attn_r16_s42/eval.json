@@ -1,0 +1,14 @@
+{
+  "run": "e1_attn_r16_s42",
+  "model": "models/Qwen2.5-0.5B-Instruct",
+  "metrics": {
+    "strict_format": 0.995,
+    "json_valid": 0.995,
+    "schema_valid": 0.995,
+    "name_correct": 0.9905,
+    "args_exact": 0.7795,
+    "full_exact": 0.7775,
+    "n": 2000
+  },
+  "eval_seconds": 177.7
+}

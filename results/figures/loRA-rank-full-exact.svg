@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Full Exact Accuracy by LoRA Rank</title>
+  <desc id="desc">Line chart of full exact test accuracy for attention LoRA ranks 1, 2, 4, 8, 16, 32, and 64. Accuracy increases from 73.50 percent to 80.55 percent. Each run evaluates 2,000 examples.</desc>
+  <rect width="960" height="560" fill="#ffffff"/>
+  <text x="480" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#172033">Full Exact Accuracy by LoRA Rank</text>
+  <text x="480" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#536176">Attention targets · seed 42 · test set N = 2,000</text>
+
+  <g stroke="#e5eaf1" stroke-width="1">
+    <line x1="105" y1="420" x2="875" y2="420"/>
+    <line x1="105" y1="356" x2="875" y2="356"/>
+    <line x1="105" y1="292" x2="875" y2="292"/>
+    <line x1="105" y1="228" x2="875" y2="228"/>
+    <line x1="105" y1="164" x2="875" y2="164"/>
+    <line x1="105" y1="100" x2="875" y2="100"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#536176" text-anchor="end">
+    <text x="93" y="424">72%</text>
+    <text x="93" y="360">74%</text>
+    <text x="93" y="296">76%</text>
+    <text x="93" y="232">78%</text>
+    <text x="93" y="168">80%</text>
+    <text x="93" y="104">82%</text>
+  </g>
+  <g stroke="#536176" stroke-width="1.5">
+    <line x1="105" y1="100" x2="105" y2="420"/>
+    <line x1="105" y1="420" x2="875" y2="420"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#536176" text-anchor="middle">
+    <text x="125" y="444">1</text>
+    <text x="250" y="444">2</text>
+    <text x="375" y="444">4</text>
+    <text x="500" y="444">8</text>
+    <text x="625" y="444">16</text>
+    <text x="750" y="444">32</text>
+    <text x="855" y="444">64</text>
+  </g>
+  <text x="490" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#172033">LoRA rank (r)</text>
+  <text x="28" y="260" transform="rotate(-90 28 260)" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#172033">Full exact accuracy (%)</text>
+
+  <polyline points="125,372 250,348 375,293.6 500,272.8 625,236 750,189.6 855,146.4" fill="none" stroke="#2878c8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#ffffff" stroke="#2878c8" stroke-width="3">
+    <circle cx="125" cy="372" r="6"/>
+    <circle cx="250" cy="348" r="6"/>
+    <circle cx="375" cy="293.6" r="6"/>
+    <circle cx="500" cy="272.8" r="6"/>
+    <circle cx="625" cy="236" r="6"/>
+    <circle cx="750" cy="189.6" r="6"/>
+    <circle cx="855" cy="146.4" r="6"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#175b9b" text-anchor="middle">
+    <text x="125" y="358">73.50</text>
+    <text x="250" y="334">74.25</text>
+    <text x="375" y="280">75.95</text>
+    <text x="500" y="259">76.60</text>
+    <text x="625" y="222">77.75</text>
+    <text x="750" y="176">79.20</text>
+    <text x="855" y="133">80.55</text>
+  </g>
+  <text x="490" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7789">Each rank is a discrete tested configuration; points are equally spaced for readability.</text>
+</svg>

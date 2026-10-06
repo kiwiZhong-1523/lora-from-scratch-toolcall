@@ -1,0 +1,6 @@
+{
+  "train_minutes": 14.22,
+  "peak_mem_gb": 18.2,
+  "final_val_loss": 0.04594,
+  "adapter_mb": 4.18
+}

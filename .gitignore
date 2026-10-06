@@ -1,7 +1,6 @@
 __pycache__/
 .pytest_cache/
 .venv/
-runs/
 runs_smoke/
 results_smoke/
 models/
@@ -12,3 +11,6 @@ data/raw/
 data/*.jsonl
 !data/sample.jsonl
 .claude/
+# personal practice copy of src/lora.py
+src/my_lora.py
+tests/test_my_lora.py

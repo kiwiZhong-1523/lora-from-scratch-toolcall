@@ -1,0 +1,15 @@
+{
+  "run": "e0_1.5b",
+  "model": "models/Qwen2.5-1.5B-Instruct",
+  "lora": null,
+  "metrics": {
+    "strict_format": 0.9945,
+    "json_valid": 0.9945,
+    "schema_valid": 0.994,
+    "name_correct": 0.9895,
+    "args_exact": 0.809,
+    "full_exact": 0.808,
+    "n": 2000
+  },
+  "eval_seconds": 216.3
+}
